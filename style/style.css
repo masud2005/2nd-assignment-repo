@@ -49,11 +49,14 @@ body{
     line-height: 24px;
     margin-top: 14px;
 }
+.text-left{
+    text-align: left;
+}
 
 /* Header Section Start Here */
 header{
     /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
-    background: linear-gradient(to bottom, #0c0b0b, #131212, #000000);
+    background: linear-gradient(to bottom, #111010, #1d1b1b, #080808);
 }
 .logo-and-menu-area{
     display: flex;
@@ -125,7 +128,6 @@ header{
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
-    /* padding: 50px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -193,4 +195,92 @@ header{
 }
 .habits-items .section-description{
     margin-top: 0;
+}
+
+
+/* Run Section Start Here */
+.run-section{
+    display: flex;
+    margin: 100px auto;
+    background-color: #222222;
+    padding: 40px 50px;
+    border-radius: 18px;
+}
+.run-content{
+    width: 50%;
+}
+.run-content .section-content{
+    max-width: 443px;
+}
+.run-content .btn-primary{
+    margin-top: 34px;
+}
+.run-img{
+    width: 50%;
+    display: flex;
+    justify-content: end;
+}
+.run-img img{
+    max-width: 366px;
+    border-radius: 8px;
+}
+
+
+/* BMI Calculator Section Start Here */
+.calculate-chart-and-bmi-area{
+    display: flex;
+    margin-top: 88px;
+    padding-top: 50px;
+}
+.bmi-calculator-section{
+    background-color: #222222;
+}
+.calculate-chart-area{
+    width: 40%;
+}
+.caption{
+    font-size: 28px;
+    font-weight: 900;
+    color: #FFFFFF;
+    margin-bottom: 52px;
+}
+.calculate-chart-area table, th, td{
+    border: 1px solid #FFFFFF1A;
+    border-collapse: collapse;
+}
+.calculate-chart-area thead{
+    color: #ffffff;
+}
+.calculate-chart-area tbody{
+    color: #FFFFFF80;
+    font-size: 14px;
+}
+.calculate-chart-area td{
+    padding: 10px 20px;
+}
+.bmi-area{
+    width: 60%;
+}
+.title{
+    margin-bottom: 0;
+}
+.bmi-area form{
+    margin: 34px 0;
+}
+form .d-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 60px;
+}
+form input{
+    width: 100%;
+    background-color: #FFFFFF1A;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 6px;
+    color: #ffffff;
+}
+.bmi-area .btn-primary{
+    margin-top: 34px;
 }
