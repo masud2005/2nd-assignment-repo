@@ -1,0 +1,146 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* Shared Style */
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+  
+body{
+    background-color: black;
+}
+.container{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.btn-primary{
+    background-color: #E6533C;
+    width: 224px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 42px;
+}
+
+/* Header Section Start Here */
+header{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+}
+.logo-and-menu-area{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 57px;
+}
+.logo{
+    font-size: 36px;
+    font-weight: 800;
+    color: #E6533C;
+}
+.menu-area ul{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+.menu-area ul li{
+    display: inline-block;
+    padding: 13px;
+}
+.menu-area ul li a{
+    font-size: 18px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu-area .btn{
+    width: 224px;
+    height: 54px;
+    background-color: #E6533C;
+    padding: 8px 20px;
+    border-radius: 46px;
+}
+.banner-section{
+    display: flex;
+    margin-top: 30px;
+}
+.banner-content{
+    width: 50%;
+    margin-top: 96px;
+}
+.banner-img{
+    display: flex;
+    justify-content: end;
+    width: 50%;
+    padding-right: 50px;
+    position: relative;
+}
+.banner-title{
+    font-size: 78px;
+    font-weight: 900;
+    color: #FFFFFF;
+    line-height: 120%;
+}
+.banner-description{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 28px 0;
+}
+.download-btn{
+    background-color: #000000;
+    border: 1px solid #ffffff;
+    margin-left: 14px;
+}
+.watch-video1, .watch-video2{
+    width: 206px;
+    height: 96px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    /* padding: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch-video1{
+    position: absolute;
+    right: -37px;
+    top: 135px;
+}
+.watch-video2{
+    position: absolute;
+    bottom: 65px;
+    right: 290px;
+}
+.watch-video2 .watch-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #E6533C;
+    color: #ffffff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.watch-content{
+    margin-left: 12px;
+}
+.watch-content h1{
+    font-size: 24px;
+    font-weight: 900;
+    color: #FAFAF9;
+    margin-bottom: 8px;
+}
+.watch-content p{
+    font-size: 16px;
+    font-weight: 400;
+    color: #EFEDE8A6;
+}
