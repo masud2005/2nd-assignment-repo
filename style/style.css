@@ -90,6 +90,11 @@ header{
     padding: 8px 20px;
     border-radius: 46px;
 }
+.icon{
+    color: #ffffff;
+    font-size: 20px;
+    display: none;
+}
 .banner-section{
     display: flex;
     margin-top: 30px;
@@ -385,4 +390,7 @@ form input{
     color: #FFFFFF80;
     text-align: center;
     padding: 35px 0;
+}
+.none{
+    display: none;
 }
