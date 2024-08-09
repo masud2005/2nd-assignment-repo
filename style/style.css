@@ -55,7 +55,6 @@ body{
 
 /* Header Section Start Here */
 header{
-    /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
     background: linear-gradient(to bottom, #111010, #1d1b1b, #080808);
     margin-top: -18px;
 }
