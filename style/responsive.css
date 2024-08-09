@@ -34,17 +34,28 @@
         width: calc(50% - 14px);
     }
     .banner-img{
-        /* width: 100%; */
         width: 95%;
         padding-right: 0;
     }
+    .banner-img img{
+        width: 100%;
+    }
+    .watch-video1, .watch-video2{
+        width: 156px;
+    }
     .watch-video1{
         top: 60px;
-        margin-right: 3px;
+        margin-right: 12px;
     }
     .watch-video2{
-        bottom: 240px;
+        bottom: 30%;
         left: 0;
+    }
+    .watch-content h1{
+        font-size: 20px;
+    }
+    .watch-content p{
+        font-size: 14px;
     }
 
     /* Habits Section */
@@ -69,13 +80,19 @@
         margin-top: 40px;
     }
     .run-img img{
-        max-width: 315px;
+        max-width: 280px;
+        object-fit: inherit;
     }
     .run-content .btn-primary{
         width: 100%;
     }
 
-    /* BMI Calculator */
+    /* Our Featured Classes Section */
+    .feature-area{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    /* BMI Calculator Section*/
     .calculate-chart-and-bmi-area{
         flex-direction: column;
         margin-top: 32px;
@@ -139,6 +156,7 @@
     }
 }
 
+
 /* Medium Device Responsive */
 @media screen and (min-width: 577px) and (max-width: 991px) {
     /* Header or Menu Section*/
@@ -148,6 +166,7 @@
     .menu-area ul li a{
         font-size: 16px;
     }
+
     /* Banner Section */
     .banner-section{
         flex-direction: column;
@@ -179,9 +198,15 @@
     .run-img img{
         max-width: 220px;
         height: 280px;
+        object-position: 66.35% 28%;
     }
 
-    /* BMI Section */
+    /* Our Featured Classes Section*/
+    .feature-area{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* BMI Calculator Section */
     .calculate-chart-and-bmi-area{
         flex-direction: column;
         margin-top: 10px;
@@ -194,7 +219,7 @@
         margin-top: 3rem;
     }
 
-    /* Our Team */
+    /* Our Team Section*/
     .team-members-container{
         padding: 20px;
     }
@@ -244,10 +269,12 @@
         bottom: 10%;
         right: 50%;
     }
-    /* BMI Calculator */
+
+    /* BMI Calculator Section*/
     .calculate-chart-and-bmi-area{
         gap: 40px;
     }
+    
     /* Our Team Section */
     .our-team .member img{
         height: 230px;
