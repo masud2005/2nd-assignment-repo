@@ -3,6 +3,9 @@
 /* Mobile Responsive */
 @media screen and (max-width: 576px) {
     /* Shared Style */
+    .container{
+        max-width: 90%;
+    }
     .section-title{
         font-size: 32px;
     }
@@ -22,7 +25,7 @@
         margin-top: 40px;
     }
     .banner-title, .banner-description{
-        padding-right: 100px;
+        max-width: 250px;
     }
     .banner-title{
         font-size: 36px;
@@ -33,14 +36,15 @@
     .banner-img{
         /* width: 100%; */
         width: 95%;
+        padding-right: 0;
     }
     .watch-video1{
-        right: 10px;
         top: 60px;
+        margin-right: 3px;
     }
     .watch-video2{
-        bottom: 150px;
-        right: 170px;
+        bottom: 240px;
+        left: 0;
     }
 
     /* Habits Section */
@@ -54,7 +58,7 @@
     /* Run Section */
     .run-section{
         flex-direction: column;
-        margin: 50px auto;
+        margin: 50px 15px;
     }
     .run-content{
         width: 100%;
@@ -80,7 +84,7 @@
         width: 100%;
     }
     .bmi-area form{
-        width: 90%;
+        width: 95%;
     }
     .caption{
         font-size: 16px;
@@ -90,8 +94,17 @@
     table{
         margin-bottom: 40px;
     }
+    form input{
+        width: 78%;
+    }
 
     /* Our Team Section */
+    .team-members-container{
+        padding: 20px;
+    }
+    .team-members{
+        gap: 20px;
+    }
     .our-team .section-title-and-description{
         margin: 0;
     }
@@ -114,6 +127,7 @@
         width: 100%;
     }
     .services{
+        width: 100%;
         align-items: start;
         margin-top: 40px;
     }

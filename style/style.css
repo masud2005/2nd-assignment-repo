@@ -73,10 +73,11 @@ header{
 .menu-area ul{
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 39px;
+    padding: 11px 4px;
 }
 .menu-area ul li{
     display: inline-block;
-    padding: 13px;
+    padding-right: 26px;
 }
 .menu-area ul li a{
     font-size: 18px;
@@ -132,12 +133,13 @@ header{
     margin-left: 14px;
 }
 .watch-video1, .watch-video2{
-    width: 206px;
-    height: 96px;
+    width: 200px;
+    /* height: 96px; */
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
     backdrop-filter: blur(20px);
     background: rgba(48, 48, 48, 0.54);
+    padding: 15px 0;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -161,9 +163,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
-}
-.watch-content{
-    margin-left: 12px;
+    margin-right: 12px;
 }
 .watch-content h1{
     font-size: 24px;
@@ -182,7 +182,6 @@ header{
 .habits-items{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    /* gap: 40px; */
     margin-top: 58px;
 }
  .habit-item .img{
@@ -280,15 +279,32 @@ header{
 form .d-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 60px;
+    gap: 20px;
 }
 form input{
-    width: 100%;
+    width: 90%;
     background-color: #FFFFFF1A;
     padding: 12px 20px;
     border: none;
     border-radius: 8px;
     margin: 6px;
+    color: #ffffff;
+}
+select{
+    width: 100%;
+    margin: 6px;
+    border-radius: 8px;
+}
+.activity{
+    background-color: #FFFFFF1A;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 6px;
+    color: #FFFFFF45;
+}
+option{
+    background-color: #343232;
     color: #ffffff;
 }
 .bmi-area .btn-primary{
